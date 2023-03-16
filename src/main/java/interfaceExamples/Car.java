@@ -1,6 +1,7 @@
 package interfaceExamples;
 
 public interface Car {
+    // public, static, and final are all fields and methods, variables are not usually included in interfaces
     EnergyType energyType = EnergyType.GAS;
     String carName = "";
     String start();
